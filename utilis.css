@@ -1,0 +1,82 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+.thermameter-img {
+  height: 80px;
+  width: 32.92px;
+}
+
+.diameter-img {
+  height: 80px;
+  width: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.planets {
+  background-image: url("bg_slide.png");
+  height: 100vh;
+  width: 100%;
+}
+
+.Sun {
+  background-image: url("Sun_bg.png");
+  background: cover;
+}
+
+.Venus {
+  background-image: url("Venus_bg.png");
+  background: cover;
+}
+
+.Uranus {
+  background-image: url("Uranus_bg.png");
+  background: cover;
+}
+
+.Neptune {
+  height: 120vh;
+}
+
+.Earth {
+  height: 105vh;
+}
+
+.Mars {
+  background-image: url("Mars_bg.png");
+  background: cover;
+  height: 100vh;
+}
+
+.footer_main {
+  height: 60vh;
+}

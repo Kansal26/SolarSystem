@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+#box2 .Venus_text, #box3 .Saturn_text, #box1 .Mercury_text, #box6 .Sun_text, #box7 .Jupiter_text{
+  color: white;
+  width : 70%;
+  margin : 0 28px;
+  font-family: "Orbitron", sans-serif;
+  
+}
+.Temp_Venus, .Diameter_Venus, .Temp_Saturn, .Diameter_Saturn, .Temp_Mercury, .Diameter_Mercury, .Temp_Neptune, .Diameter_Neptune, .Diameter_Sun, .Temp_Sun, .Temp_Jupiter, .Diameter_Jupiter{
+  width: 352px;
+  height: 100px;
+  border: 2px solid #450b51;
+  border-radius : 28px;
+  margin : 0 10px;
+}
+#box4 .Uranus_text , #box5 .Neptune_text {
+  color: white;
+  height : 50%;
+  margin : 18px 28px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.Neptune_text {
+  width: 80%;
+}
+.Neptune_img {
+  position: relative;
+  z-index: 2; 
+}
+
+.introduction {
+  background-image: url("Hero.png");
+  height: 100vh;
+}
+
+.bg {
+  position : relative;
+  z-index: 1;
+}
+
+.bg-1{
+  height : 350px;
+  width: 440px;
+  top: 110px;
+  transform: rotate(5deg);
+  right: 15px;
+}
+
+.bg-2 {
+  height : 150px;
+  width: 150px;
+  right: 460px;
+  top: 485px;
+}
+
+.bg-3 {
+  height : 350px;
+  width: 300px;
+  left : 555px;
+  top: 170px;
+}
+
+.bg-4 {
+  height : 250px;
+  width: 300px;
+  top: 483px;
+  left: 253px;
+}
+
+.bg-5 {
+  height: 200px;
+  width: 200px;
+  right : 550px;
+  top: 483px;
+}
+
+.bg-6 {
+  height : 150px;
+  width: 150px;
+  left: 750px;
+  top: -200px;
+}
+
+.heading {
+  position: relative;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  z-index: 2;
+  width: 850px;
+  text-align : center;
+  left: 22%;
+  top: -30%;
+}
+
+.heading h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.heading button {
+  width: 150px;
+  height : 60px;
+  border-radius : 12px;
+  margin-top: 30px;
+  border: none;
+  background-color: pink;
+  color: white;
+  font-size: bold;
+}
+
+.Temp_Sun img, .Diameter_Sun img, Temp_Mercury img, .Diameter_Mercury img, .Temp_Venus img ,.Diameter_Venus img, .Temp_Saturn img, .Diameter_Saturn img{
+  margin-right: 12px;
+}
+
+.Temp_Sun, .Diameter_Sun, .Temp_Mercury, .Diameter_Mercury, .Temp_Venus, .Diameter_Venus, .Temp_Saturn, .Diameter_Saturn{
+  width: 300px;
+  height: 150px;
+  border: 4px solid #450b51;
+  background-image: linear-gradient(to bottom right, #390345,#600372, #450b51);
+  border-radius: 14px;
+  margin: 0 10px;
+}
+
+.Temp_text h4, .Diameter_Sun h4, .Temp_Mercury h4, .Diameter_Mercury h4, .Temp_Venus h4, .Diameter_Venus h4, .Temp_Saturn h4, .Diameter_Saturn h4{
+  margin-bottom: 8px;
+}
+
+.buttons {
+  margin-top: 24px;
+  color: white;
+}
+
+#box1 .Mercury_text {
+  width: 60%;
+}
+
+#box2 .Venus_text{
+  width: 60%;
+}
+
+ #box3 .Saturn_text {
+   width: 80%;
+ }
+
+#box3 .Saturn_text h1, #box1 .Mercury_text h1, #box2 .Venus_text h1, #box6 .Sun_text h1, #box4 .Uranus_main h1, #box7 .Jupiter_main h1, .Neptune_text h1, .Mars_text h1 {
+  font-size : 80px;
+}
+#box3 .Saturn_img {
+  width: 130%;
+}
+
+#box3 .Saturn_text .Saturn_main {
+  margin-bottom: 130px;
+}
+
+.Saturn {
+  margin-left: 25%;
+}
+
+.Uranus_main {
+  width: 40%;
+}
+.Jupiter_main{
+  width: 80%;
+}
+
+.Earth_main {
+  width: 50%;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+.Earth_main h1 {
+  font-size: 80px;
+}
+
+.Moon_main {
+  text-align: right;
+  position:  relative;
+  top: 40%;
+  left: 30%;
+}
+
+.Earth_text {
+  margin-left: 22px;
+  margin-bottom: 22px;
+}
+
+.Mars_img {
+  height: 400px;
+  width: 450px;
+}
+
+.Mars_text_img {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  width: 50%;
+}
+
+
+#box8 .Mars_text_img img {
+  position: relative ;
+  right: 20%;
+  top: 30%;
+}
+
+.footer {
+  height: 50vh;
+  width: 160vh;
+  border-radius: 28px;
+  background-color: #000000;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+.footer h3 {
+  width: 80%;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.footer button {
+  background-image: linear-gradient(to bottom right, #61177c,#9929bd, #d357fe);
+  height: 40px;
+  width: 120px;
+  border-radius: 14px;
+  border: none;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-image: linear-gradient(to bottom right, #d357fe,#9929bd, #61177c);
+  border: 2px solid #61177c;
+}
+.footer input {
+  height: 40px;
+  width: 300px;
+  border-radius: 14px;
+  font-family: "Orbitron", sans-serif;
+  padding-left: 4px;
+  border: none;
+}
+.footer_nav ul{
+  list-style: none;
+  margin-top: 24px;
+}
+
+.footer_nav ul li {
+  margin: 0 24px;
+}
+.Mars_main {
+  position: relative;
+}
+.Mars_moons {
+  width: 70%;
+  position : absolute;
+  top: 35%;
+  left: 80%;
+}
+.Mars_main img {
+  width: 100%;
+  height: 40%;
+}
