@@ -278,3 +278,64 @@ img {
   width: 100%;
   height: 40%;
 }
+.introduction{
+  position: relative;
+}
+.introduction #planet1 {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  top: 10%;
+
+}
+
+.introduction #planet2 {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+
+}
+
+.introduction #planet3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 80%;
+
+}
+
+.introduction #planet4 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left: 79%;
+  top: 8%;
+
+}
+
+.introduction #planet5 {
+  width: 300px;
+  height: 270px;
+  position: absolute;
+  left: 79%;
+  top: 67%;
+
+}
+
+.introduction #planet6 {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: 39%;
+  top: 75%;
+}
+
+.introduction #planet7 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 55%;
+  top: 20%; 
+
+}
